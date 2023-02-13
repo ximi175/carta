@@ -18,6 +18,7 @@ body {
 
   /*   border-top-left-radius: 5%;
   border-top-right-radius: 5%; */
+  border: 2px solid blue;
   border-radius: 10px;
   justify-content: center;
   align-items: center;
