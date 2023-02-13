@@ -1,0 +1,127 @@
+body {
+  background: rgb(36 0 35);
+  background: linear-gradient(90deg, rgb(36 0 35 / 100%) 36%, rgb(9 9 121 / 100%) 61%, rgb(255 0 78 / 100%) 100%);
+  display: flex;
+
+  /* align-items: center; */
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  /* display: flex; */
+  width: 300px;
+  height: 400px;
+  background-color: rgb(231 212 212);
+
+  /*   border: 1px solid rgb(134, 41, 41); */
+
+  /*   border-top-left-radius: 5%;
+  border-top-right-radius: 5%; */
+  border-radius: 10%;
+  justify-content: center;
+  align-items: center;
+  transform: translateY(50px) translateX(0);
+}
+
+.up {
+  width: 300px;
+  height: 110px;
+  background-color: blue;
+  border-top-right-radius: 12%;
+  border-top-left-radius: 12%;
+  border-top: 1px solid rgb(75 74 182);
+  border-bottom: 3px solid rgb(197 193 252);
+  background-image: url(https://img.freepik.com/vector-gratis/fondo-galaxia-realista_52683-12122.jpg);
+}
+
+.avatar {
+  display: flex;
+  width: 90px;
+  height: 90px;
+  background-color: rgb(255 251 251);
+  border-radius: 60%;
+  border: 4px solid rgb(197 193 252);
+  transform: translateY(25px) translateX(105px);
+  background-image: url(https://cdn.discordapp.com/attachments/1074781508914651266/1074794633571336242/Woman-PNG-Picture.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.usuarios {
+  display: flex;
+  height: 50px;
+  width: 80px;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(0) translateX(110px);
+  font-family: Oswald, sans-serif;
+}
+
+.zona {
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 0;
+  transform: translateY(-18px) translateX(0);
+}
+
+.text {
+  height: 120px;
+  width: 200px;
+  align-items: center;
+  justify-content: center;
+  transform: translateY(8px) translateX(50px);
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.down {
+  text-align: center;
+  width: 60px;
+  height: 25px;
+  color: rgb(83 83 211);
+  border: 3px solid rgb(98 98 216);
+
+  /* border: 2px solid red; */
+  border-radius: 25%;
+  transform: translateY(8px) translateX(60px);
+}
+
+.follow {
+  width: 80px;
+  height: 30px;
+  transform: translateY(-20px) translateX(70px);
+  font-family: Oswald, sans-serif;
+}
+
+.post {
+  width: 80px;
+  height: 30px;
+  transform: translateY(10px) translateX(-10px);
+  font-family: Oswald, sans-serif;
+}
+
+.followwings {
+  width: 80px;
+  height: 30px;
+  transform: translateY(-50px) translateX(150px);
+  font-family: Oswald, sans-serif;
+}
+
+.post-number {
+  width: 75px;
+  height: 75px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.follow-number {
+  width: 75px;
+  height: 75px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.wings-number {
+  width: 75px;
+  height: 75px;
+  font-family: "Lexend Deca", sans-serif;
+}
