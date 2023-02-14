@@ -1,11 +1,17 @@
+* {
+  align-items: center;
+  justify-content: center;
+}
+
 body {
   background: rgb(36 0 35);
   background: linear-gradient(90deg, rgb(36 0 35 / 100%) 36%, rgb(9 9 121 / 100%) 61%, rgb(255 0 78 / 100%) 100%);
   display: flex;
 
   /* align-items: center; */
-  justify-content: center;
-  align-items: center;
+
+  /*  justify-content: center;
+  align-items: center; */
 }
 
 .container {
@@ -22,7 +28,7 @@ body {
   border-radius: 20px;
   justify-content: center;
   align-items: center;
-  transform: translateY(50px) translateX(0);
+  transform: translateY(70px) translateX(0);
 }
 
 .up {
